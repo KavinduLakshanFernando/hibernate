@@ -18,7 +18,7 @@ public class Main {
         student.setAddress("panadura");
         Transaction transaction = session.beginTransaction();
 
-        //delete,get another Table,note
+       // session.update(student);
         session.save(student);
       // session.delete(student);
 
